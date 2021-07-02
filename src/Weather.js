@@ -28,11 +28,11 @@ export default function Weather() {
                     <div className="float-left">
                       <strong id="temperature">22</strong>
                       <span className="units">
-                        <a href="alt" id="celsius-link" className="active">
+                        <a href="" id="celsius-link" className="active">
                           °C
                         </a>{" "}
                         |
-                        <a href="#" id="fahrenheit-link">
+                        <a href="" id="fahrenheit-link">
                           °F
                         </a>
                       </span>
