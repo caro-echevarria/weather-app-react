@@ -25,6 +25,7 @@ export default function Weather() {
               <div className="row">
                 <div className="col-5">
                   <div className="clearfix weather-temperature">
+                    <img src="" alt="" id="icon" class="float-left" />
                     <div className="float-left">
                       <strong id="temperature">22</strong>
                       <span className="units">
@@ -43,11 +44,11 @@ export default function Weather() {
                   <h7>
                     <strong>
                       {" "}
-                      Feels like: <span id="feels-like"></span>
+                      Feels like: <span id="feels-like">18</span>
                     </strong>
                   </h7>
                   <ul>
-                    <li id="description"></li>
+                    <li id="description">Light thunderstorms and rain</li>
                   </ul>
                 </div>
                 <div className="col-3">
@@ -55,7 +56,7 @@ export default function Weather() {
                     <span className="conditions">
                       <li>
                         Humidity:
-                        <span id="humidity">57</span>%
+                        <span id="humidity">72</span>%
                       </li>
                       <li>
                         Wind:
