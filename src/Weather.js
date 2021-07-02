@@ -89,7 +89,7 @@ export default function Weather() {
               </a>
               and
               <a
-                href="https://thirsty-yonath-79ee10.netlify.app/"
+                href="https://stupefied-roentgen-2df098.netlify.app/"
                 target="_blank"
               >
                 hosted at Netlify
