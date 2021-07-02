@@ -28,11 +28,11 @@ export default function Weather() {
                     <div className="float-left">
                       <strong id="temperature">22</strong>
                       <span className="units">
-                        <a href="" id="celsius-link" className="active">
+                        <a href="alt" id="celsius-link" className="active">
                           °C
                         </a>{" "}
                         |
-                        <a href="" id="fahrenheit-link">
+                        <a href="alt" id="fahrenheit-link">
                           °F
                         </a>
                       </span>
@@ -73,10 +73,10 @@ export default function Weather() {
           </div>
           <footer>
             <small>
-              Coded by
-              <a
+              Coded by <a
                 href="https://www.linkedin.com/in/carolina-genoveva-echevarría-aguilar"
                 target="_blank"
+                rel="noreferrer"
               >
                 Carolina Echevarria <i className="fab fa-linkedin"></i>
               </a>
@@ -84,13 +84,12 @@ export default function Weather() {
               <a
                 href="https://github.com/caro-echevarria/weather-react"
                 target="_blank"
+                rel="noreferrer"
               >
-                Open-sourced <i className="fab fa-github"></i>
-              </a>
-              and
-              <a
+                Open-sourced <i className="fab fa-github"></i></a> and <a
                 href="https://stupefied-roentgen-2df098.netlify.app/"
                 target="_blank"
+                rel="noreferrer"
               >
                 hosted at Netlify
                 <span
